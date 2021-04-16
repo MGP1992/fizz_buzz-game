@@ -18,7 +18,8 @@ while next_number < highest - 1:
     if correct_answer == player_answer:
         print("Well done! You got it!")
     else:
-        print("I'm sorry that was incorrect, you lose :(")
+        print("I'm sorry that was incorrect, the correct answer was {}, you lose :("
+              .format(correct_answer))
         break
 
 
